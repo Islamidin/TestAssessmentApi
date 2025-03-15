@@ -1,0 +1,67 @@
+# Ignore build and debug artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+
+# Ignore Visual Studio & Rider specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.csproj.user
+*.vs/
+
+# Ignore .NET Core dependencies
+**/bin/
+**/obj/
+**/out/
+*.swp
+
+# Ignore SQLite database files
+Database/*.db
+Database/*.db-shm
+Database/*.db-wal
+
+# Ignore Entity Framework migrations
+Migrations/
+Database/Migrations/
+
+# Ignore user secrets and config files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Ignore generated files
+*.g.dart
+*.g.cs
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Ignore logs and temporary files
+logs/
+*.log
+**/*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Ignore JetBrains Rider / Resharper
+.idea/
+*.DotSettings.user
+
+# Ignore MacOS and Linux files
+.DS_Store
+._*
+*.swp
+
+/.vs
+/TestAssessment/Api/.config
+/Api/.config/dotnet-tools.json
